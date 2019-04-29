@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    border-bottom: 1px solid gray;
+    border-top: 10px solid black;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+
+}
+
+header div:last-child{
+    width: 10%;
+}
+
+header div a{
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+}
+
+
+header div:first-child .logo{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header div:first-child .logo img{
+    width: 60px;
+    height: 50px;
+}
+
+header div:last-child a{
+    text-decoration: none;
+}
+
+section{
+    background-image: url('img/8729.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+.alien{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.alien h2{
+    font-family: 'Shojumaru', cursive;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+article h2{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+article p{
+    width: 95%;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 0;
+}
+
+.seila{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    background-color: black;
+}
+
+div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+div div p{
+    text-align: center;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+}
+
+div div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+div div div img{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+}
+
+footer div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+footer div:first-child p{
+    font-family: 'Merriweather', serif;
+    font-size: 10pt;
+    margin: 0;
+    width: 90%;
+    text-align: end;
+    color: rgb(80, 80, 80);
+}
+
+footer div:first-child div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 15%;
+
+}
+
+footer div:first-child div a img{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}

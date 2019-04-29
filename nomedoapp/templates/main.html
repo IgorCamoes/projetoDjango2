@@ -1,0 +1,43 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Shojumaru|Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'script.js' %}" defer></script>
+    <title>Sitezinho</title>
+</head>
+
+
+<body>
+    <header> 
+        <div>
+            <div class="logo"><a href="/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1200px-NASA_logo.svg.png" alt="Logo"></a></div>
+        </div>
+        <div><a href="sobre/">Conhecimento</a></div>
+        <div><a href="">Quack!</a></div>
+    </header>
+    
+    {% block content %}
+    
+    
+    {% endblock %}
+    
+    <footer>
+        <div>
+            <div>
+                <a href=""><img src="../static/img/social1.svg" alt=""></a>
+                <a href=""><img src="../static/img/social2.svg" alt=""></a>
+                <a href=""><img src="../static/img/social3.svg" alt=""></a>                
+            </div>
+            <p>todos os direitos reservados.</p>
+        </div>
+        <div></div>
+    </footer>
+    
+</body>
+</html>
